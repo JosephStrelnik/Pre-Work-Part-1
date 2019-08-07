@@ -1,27 +1,28 @@
 /* Global resets */
+/* Global resets */
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	color: #424242;
-	line-height: 1.4;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  color: #424242;
+  line-height: 1.4;
 }
 
 /* Fonts */
 h1 {
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
-	font-size: 2.5em;
-	font-weight: bold;
+  font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 .container {
-	margin: 2em auto;
-	max-width: 630px;
-	text-align: center;
+  margin: 2em auto;
+  max-width: 630px;
+  text-align: center;
 }
 
 /* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
@@ -41,10 +42,10 @@ h1 {
 
 /* Your CSS code goes here */
 .container2 {
-	display: grid;
-	border-color: #eaeaea;
-	border-style: solid;
-	border-width: 1px;
+  display: grid;
+  border-color: #eaeaea;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2.5px;
   padding: 10px 15px 5px 15px;
   height: 225px;
@@ -52,11 +53,11 @@ h1 {
   margin: auto;
   font-size: 14px;
 }
-  .container1 {
+.container1 {
   display: grid;
-	border-color: #777;
-	border-style: groove;
-	border-width: thin;
+  border-color: #777;
+  border-style: groove;
+  border-width: thin;
   border-radius: 2.5px;
   height: 45px;
   width: 20%;
@@ -64,21 +65,19 @@ h1 {
   background: #424242;
   padding: 10px 5px;
   text-align: center;
+  font-size: 14px;
   color: white;
-
-
-}
-
+ }
 .givenowbutton {
- background-color: #1CBC2C;
- text-align:center;
- border-style: solid;
- padding: 6px 2px;
- width: 100px;
- height: 40px;
- border-radius: 3px;
- border-color: #1CBC2C;
- color: white;
+  background-color: #1cbc2c;
+  text-align: center;
+  border-style: solid;
+  padding: 6px 2px;
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+  border-color: #1cbc2c;
+  color: white;
 }
 .textbox {
   width: 100px;
@@ -86,58 +85,43 @@ h1 {
   margin: auto 10px auto 10px;
   border-radius: 3px;
 }
-
-.button1  {
+.button1 {
   background-color: white;
   border: solid;
-  border-color:#eaeaea;
+  border-color: #eaeaea;
   border-width: 2px;
   border-radius: 5px;
   color: #777;
   padding: 10px 15px;
   font-size: 12px;
-  hight: 40px;
+  height: 40px;
   width: 132px;
 }
 .center {
-  margin-left:542px;
-  margin-top:10px;
-  margin-bottom:10px;
+  margin-left: 542px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: inline-block;
-}
-.paraformat {
-  text-color:#777;
-font-family:  "Calibri"
-
-  p {
-    font-family:"rooney-web", "AmericanTypewriter", Rockwell, serif;
-  }
-}
+ }
 #box-container {
-    display: flex;
-    height: 10px;
-    width: 20%;
-    margin:auto;
-    margin-bottom:1px;
-  Margin-top:1px;
-    border-color: #eaeaea;
-	  border-style: solid;
-	  border-width: thin;
-    border-radius: 2.5px;
-  }
-
-  #box-1 {
-    background-color: #EF5F3C;
-    height: 10px;
-
-    flex-grow:4;
-
-  }
-
-  #box-2 {
-    background-color: white;
-    height: 10px;
-    flex-grow:2;
-
-  }
- 
+  display: flex;
+  height: 10px;
+  width: 20%;
+  margin: auto;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  border-color: #eaeaea;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 2.5px;
+}
+#box-1 {
+  background-color: #ef5f3c;
+  height: 10px;
+  flex-grow: 4;
+}
+#box-2 {
+  background-color: white;
+  height: 10px;
+  flex-grow: 2;
+ }
