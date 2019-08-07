@@ -40,3 +40,104 @@ h1 {
 */
 
 /* Your CSS code goes here */
+.container2 {
+	display: grid;
+	border-color: #eaeaea;
+	border-style: solid;
+	border-width: 1px;
+  border-radius: 2.5px;
+  padding: 10px 15px 5px 15px;
+  height: 225px;
+  width: 20%;
+  margin: auto;
+  font-size: 14px;
+}
+  .container1 {
+  display: grid;
+	border-color: #777;
+	border-style: groove;
+	border-width: thin;
+  border-radius: 2.5px;
+  height: 45px;
+  width: 20%;
+  margin: auto auto 8px auto;
+  background: #424242;
+  padding: 10px 5px;
+  text-align: center;
+  color: white;
+
+
+}
+
+.givenowbutton {
+ background-color: #1CBC2C;
+ text-align:center;
+ border-style: solid;
+ padding: 6px 2px;
+ width: 100px;
+ height: 40px;
+ border-radius: 3px;
+ border-color: #1CBC2C;
+ color: white;
+}
+.textbox {
+  width: 100px;
+  height: 40px;
+  margin: auto 10px auto 10px;
+  border-radius: 3px;
+}
+
+.button1  {
+  background-color: white;
+  border: solid;
+  border-color:#eaeaea;
+  border-width: 2px;
+  border-radius: 5px;
+  color: #777;
+  padding: 10px 15px;
+  font-size: 12px;
+  hight: 40px;
+  width: 132px;
+}
+.center {
+  margin-left:542px;
+  margin-top:10px;
+  margin-bottom:10px;
+  display: inline-block;
+}
+.paraformat {
+  text-color:#777;
+font-family:  "Calibri"
+
+  p {
+    font-family:"rooney-web", "AmericanTypewriter", Rockwell, serif;
+  }
+}
+#box-container {
+    display: flex;
+    height: 10px;
+    width: 20%;
+    margin:auto;
+    margin-bottom:1px;
+  Margin-top:1px;
+    border-color: #eaeaea;
+	  border-style: solid;
+	  border-width: thin;
+    border-radius: 2.5px;
+  }
+
+  #box-1 {
+    background-color: #EF5F3C;
+    height: 10px;
+
+    flex-grow:4;
+
+  }
+
+  #box-2 {
+    background-color: white;
+    height: 10px;
+    flex-grow:2;
+
+  }
+ 
